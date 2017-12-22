@@ -12,7 +12,7 @@ uppercase, which if true should return the string but capitalized, e.g. HELLO WO
 eg:  http://x.x.x.x:8080/Hello%20World?uppercase=true
 
 Content in the browser will be: 
-Hello World Value After Capitilization: HELLO WORLD Value After Reversing: dlroW olleH 
+Hello World Value After Capitilization: HELLO WORLD
 }
 
 reversed, which if true should return the reverse of the string, e.g. dlrow olleh
