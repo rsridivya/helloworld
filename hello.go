@@ -16,7 +16,7 @@ func Homepage(w http.ResponseWriter, r *http.Request) {
         urlValue := r.URL.Path[1:] 
         
 	if (urlValue == "") {
-	fmt.Fprintf(w, "Hello Wolrd! ")
+	fmt.Fprintf(w, "Hello World! ")
         } else if (urlValue == "Hello"||urlValue == "World") {
 	fmt.Fprintf(w, "%s ", urlValue)
 	
